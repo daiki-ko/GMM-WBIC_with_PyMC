@@ -12,7 +12,7 @@ PythonでGaussian Mixture Model(GMM)のWBICを計算するプログラムをPyMC
 ・pymc3 <br>
 ・theano
 
-計算の流れ
+計算の流れ　<br>
 Step1 ) GMMの逆温度付き尤度関数を用いたベイズ事後分布からのパラメータをMCMCで生成する。 <br>
 Step2 ) Step1で生成したパラメータを用いて、通常のGMMの尤度関数(逆温度=1)の期待値(=WBIC)を求める。
 
