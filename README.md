@@ -1,7 +1,7 @@
 # GMM-WBIC_with_PyMC
 ### PyMC source program to determine the number of clusters in multi-dimensional data by WBIC.
 
-PythonでGaussian Mixture Model(GMM)のWBICを計算するプログラムをPyMCと呼ばれるベイズ推定用のライブラリを用いて実装しました。
+Gaussian Mixture Model(GMM)のWBICを計算するプログラムをPyMCと呼ばれるベイズ推定用のライブラリを用いて実装しました。
 用途としては、多次元データの潜在的なクラスタ数の決定などに使用できます。
 
 逆温度つきのGMMの尤度関数をtheanoを使って自前で設計しています。<br>
